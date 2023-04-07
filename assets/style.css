@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #69a8e7;
 }
 
 .wrapper {
@@ -38,13 +38,14 @@ header {
 label{
   
   color: red;
+  font-size: larger;
 }
 select{
  
   color: red;
 }
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(313, 72%, 70%);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -59,7 +60,7 @@ select{
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #ecdd38;
   height: 2px;
 }
 
@@ -75,7 +76,7 @@ select{
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #6eecaf;
   height: 2px;
 }
 
@@ -129,6 +130,8 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  background-color: bisque;
+  color: red;
 }
 
 @media (max-width: 690px) {
